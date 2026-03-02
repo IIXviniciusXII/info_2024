@@ -2,6 +2,6 @@
 
 Este é meu primeiro projeto utilizando Git e GitHub.
 
-Aluno: Seu Nome  
+Aluno: Vinicius Chiari Malinski  
 Curso: Informática  
-Data: __/__/____
+Data: 02/03/2026
