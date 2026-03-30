@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Meu primeiro projeto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Meu Primeiro Projeto com Git</h1>
-    <p>Aluno: Vinicius </p>
-    <p>Curso: Informatica</p>
-    <p>Projeto enviado para o GitHub com sucesso!</p>
+    <form name="contato" method="post">
+        <label for="Nome">Primeiro Nome:</label>
+        <input type="text" name="Nome" size="20" id="nome" required>
+         
+        <br><br>
+        <Label for="senha">Senha:</Label>
+        <input type="password" name="senha" size="20" id="senha" required>
+        <br><br>
+        <label for="rbsexo">Sexo:</label>
+        <input type="radio" id="rbmasculino"name="rbsexo" value="Masculino" checked> Masculino
+        <input type="radio" id="rbfeminino"name="rbsexo" value="Feminino"> Feminino
+        <br><br>
+        <label for="linguagens">Linguagens de Programação:</label>
+        <input type="checkbox" id="lhtml" name="linguagens">HTML
+        <input type="checkbox" id="lcss" name="linguagens">CSS
+        <input type="checkbox" id="ljava" name="linguagens">JAVA
+        <input type="checkbox" id="lpython" name="linguagens"> PYTHON <br>
+        <select name="linguagem" id="linguagens">
+            <option value=""></option>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">JAVA</option>
+            <option value="4">PYTHON</option>
+        </select>
+        <br><br>
+        <Label for="descricao">Conte um pouco sobre você:</Label>
+        <textarea name="descricao" cols="50" rows="6"></textarea>
+        <br><br>
+        <input type="submit" name="btnsalar" value="Salvar">
+        <input type="reset" name="btnlimpar" value="limpar">
+        <input type="button" name="btnfavorito" value=" Adicionar aos Favoritos">
+        <br><br>
+        
+
+        
+    </form>
+
+        
+
 </body>
+
 </html>
